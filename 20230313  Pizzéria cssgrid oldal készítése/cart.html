@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <meta name="author" content="CodeHim">
+    <link rel="stylesheet" href="style.css">
+    <title>Rendelés</title>
+    
+  </head>
+  <body>
+ <header class="intro">
+ <h1></h1>
+
+ <header>
+  <ul class="ul">
+      <li class="li li1"><a href="index.html">Kezdőlap</a></li>
+      <li class="li"><a href="cart.html">Rendelés</a></li>
+      <li class="li"><a href="nyitva.html">Nyitva tartás</a></li>
+  </ul>
+
+</header>
+ 
+
+
+ </header>
+  
+      
+ <main>
+    
+    <div class="container"> 
+   
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">Csípős-Tejfölös Pizza</h3>
+            <p>paradicsomos szósszal, tarjával, bacon szalonnával, gombával, chilis tejföllel, sajttal </p>
+            <p class="price">ára :2400 </p>
+            <img class="cigany" src="kepek/fokhagymas-tejfolos-pizza-anettol.jpeg" alt="">  
+            <button class="addtocart"><img class="kos" src="/kepek/shopping-cart-logo-or-icon-design-vector.jpg" alt=""></button>
+            
+        </div>
+        <div class="product">
+            <h3 class="productname">Hawaii Pizza</h3>
+            <p>paradicsomos szósszal, sonkaszeletekkel, ananászdarabokkal, kukoricával, sajttal</p>
+            <p class="price">ára :2500 Ft </p>
+            <img class="cigany" src="kepek/fokhagymas-tejfolos-csirkes-pizza-recept.jpg" alt="">
+            <button class="addtocart"><img class="kos" src="/kepek/shopping-cart-logo-or-icon-design-vector.jpg" alt=""></button>
+            
+        </div>
+        <div class="product">
+            <h3 class="productname">Húsimádó Pizza</h3>
+            <p>paradicsomos szósszal, eredeti nyárson sült gyros hússal, fűszeres csirkemellel, sonkával, tarjával, szalámival, sajttal</p>
+            <p class="price">ára :3800 </p>
+            <img class="cigany" src="kepek/tojásos-pizza-1.jpg.webp" alt="">
+            <button class="addtocart"><img class="kos" src="/kepek/shopping-cart-logo-or-icon-design-vector.jpg" alt=""></button>
+            
+        </div>
+        <div class="product">
+          <h3 class="productname">Magyaros Pizza</h3>
+          <p>paradicsomos szósszal, különleges magyaros jellegű fűszeres kolbásszal, bacon szalonnával, lilahagyma karikákkal, sajttal</p>
+          <p class="price">ára :2600 </p>
+          <img class="cigany" src="kepek/crispy_pizza.jpg" alt="">
+          <button class="addtocart"><img class="kos" src="/kepek/shopping-cart-logo-or-icon-design-vector.jpg" alt=""></button>
+          
+         
+          <h3 class="productname">New York Pizza</h3>
+          <p>paradicsomos szósszal, füstölt tarjával, baconszalonnával, lilahagyma karikákkal, sajttal, a tetején tejföllel </p>
+          <p class="price">ára :2700 </p>
+          <img class="cigany" src="kepek/images.jfif" alt="">
+          <button class="addtocart"><img class="kos" src="/kepek/shopping-cart-logo-or-icon-design-vector.jpg" alt=""></button>
+          
+      </div>
+        </div>
+        <div class="cart-container">
+          <h2>Kosár</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Termék</strong></th>
+              <th><strong>Ára</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Termékek</strong></td>
+              <td><strong>Összesen</strong></td>
+            </tr>
+            <tr>
+              <td> <span id="itemsquantity">0</span> db</td>
+             
+              <td><span id="total">0</span> HUF</td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Kosár kiürítése</button>
+            <button id="checkout">Fizetés</button>
+          </div>
+        </div>
+</div>
+
+ </main>
+ 
+      
+  
+
+        <script  src="/script1.js"></script> 
+  </body>
+</html>

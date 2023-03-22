@@ -1,0 +1,209 @@
+
+
+body{
+    background-image: url(kepek/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 10px;
+}
+
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(160, 67, 67),rgb(117, 62, 62));
+    
+
+  }
+
+  .li1{
+    padding-left: 190px;
+  }
+  
+  .li {
+    float: left;
+  }
+  
+  .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .li a:hover {
+    background-color: #111;
+  }
+
+  li{
+    font-size: 22px;
+    color: white;
+  }
+
+  .face{
+    font-size: 30px;
+    color: white;
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: blur(3px);
+  }
+
+  .kep1{
+    width: 1500px;
+    height: 800px;
+    
+  }
+
+  .logo{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 40%;
+    width: 200px;
+    height: 130px;
+    margin: -65px auto 0;
+    
+
+  }
+
+
+  .kep2{
+    border-radius: 50%;
+    
+  }
+
+
+
+  .kepek{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .kep3{
+    height: 600px;
+    width: 600px;
+    margin: 10px;
+    
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+  }
+
+  .pizzak{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  h2{
+    color: white;
+    
+  }
+
+  .pizza{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-right: 40px;
+   
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  h3, p{
+    color: white;
+  }
+
+  button{
+    height: 50px;
+    width: 150px;
+    
+    
+  }
+
+  .kos{
+    height: 45px;
+    width: 70px;
+  }
+
+  td, th, tr{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  table, th, tr, td{
+    border: 1px white solid;
+    
+  }
+
+  .cigany{
+    height: 150px;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 2000px;
+    
+  }
+
+  .box4{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    background-image: url(/kepek/pizza.jpg);
+    
+
+
+  }
+
+  .terkep{
+    height: 400px;
+    width: 1000px;
+    
+    
+    
+    
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+  }
+
+  .gg{
+    padding-top: 300px;
+  }
+
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+ 
+
+  
+
+
+
+  
+
